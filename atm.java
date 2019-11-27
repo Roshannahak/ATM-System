@@ -45,10 +45,10 @@ class atm{
         Scanner sn = new Scanner(System.in);
         String s,y_n;
         data obj = new data();
-        /*System.out.println("Enter account number: ");
+        System.out.println("Enter account number: ");
         obj.set_ac_no(sn.nextInt());
         System.out.println("Enter your name: ");
-        obj.set_name(sn.next());*/
+        obj.set_name(sn.next());
         System.out.println("Enter ammount: ");
         obj.set_amt(sn.nextFloat());
         System.out.println("money withdraw/deposit key enter(w/d)");
